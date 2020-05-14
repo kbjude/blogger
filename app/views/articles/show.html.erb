@@ -2,3 +2,6 @@
 <p> <%= @article.body %>
 
 <%= link_to '<< Back to Articles', articles_path %>
+
+<%= link_to 'Destroy', article_path(@article), 
+method: :delete, data: { confirm: "Are you sure you want to delete this record"}%>
