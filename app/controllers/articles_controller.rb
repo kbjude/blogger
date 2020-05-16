@@ -11,7 +11,7 @@ class ArticlesController < ApplicationController
   end
 
   def new
-   @article = Article.new
+    @article = Article.new
   end
 
   def create
@@ -44,5 +44,4 @@ class ArticlesController < ApplicationController
   def article_params
     params.require(:article).permit(:title, :body)
   end
-
 end
