@@ -5,7 +5,8 @@ class Article < ApplicationRecord
 
     has_attached_file :image
     validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png"]
-    
+    has_attached_file :image, styles: { medium: "300x300>", thumb: "100x100>" }
+
     def tag_list
         self.tags.collect do |tag|
           tag.name
