@@ -32,9 +32,13 @@ Be able to use rackup command
 
 ## Authors
 
-👤 **Jude
+👤 Jude
 
 - Github: [@kbjude](https://github.com/kbjude)
+
+👤 Rodolfo
+
+- Github: []()
 
 ## 🤝 Contributing
 
